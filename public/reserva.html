@@ -88,44 +88,60 @@
         <div class="clearfix"></div>
         </div>
         
-        <section>
-            <div class="containerFormulario">
-                <center><h3 style="font-weight: bold; color: forestgreen;">Solicitud Intemperie</h3></center><br>Se enviará solicitud de reserva, nuestro equipo se contactará con usted.
-              <form action="https://formspree.io/f/mnqollwl" method="POST" id="my-form">
+        
+
+<div class="container1">
+  <div class="container2">
+    <div class="title">Reserva con nosotros!</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombre completo</span>
+            <input type="text" placeholder="Ingrese su Nombre" required>
+          </div>
           
-                <div class="form-group">
-                  <label for="Nombre"> Nombre</label>
-                  <input type="text" id="nombre" name="nombre" required>
-                </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Ingrese su Email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Número Celular </span>
+            <input type="text" placeholder="Ingrese su número" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Destino</span>
+            <input type="text" name="destino" id="destino"  required>
+          </div>
+          <!--<div class="form-group">
+            <label for="Mensaje">Destino</label>
+            <textarea name="destino" id="destino"></textarea>
+          </div>-->
           
-                <div class="form-group">
-                  <label for="Apellido">Apellido</label>
-                  <input type="text" id="apellido" name="apellido" required>
-                </div>
-                <div class="form-group">
-                    <label for="Contacto">Numero de contacto</label>
-                    <input type="text" id="contacto" name="contacto" required>
-                  </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email">
-                </div>
-                
-                <div class="form-group">
-                    <label>Mensaje</label>
-                    <textarea id="mensaje" name="mensaje"></textarea>
-                </div>
+
+          <div class="button2">
+            <input type="submit" value="Consultar reserva">
+            <div id="status"></div>
+          </div>
+          
+        
+        
+        
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
                   
-                <div class="form-group">
-                  <label for="Mensaje">Destino</label>
-                  <textarea name="destino" id="destino"></textarea>
-                </div>
-                
-              <button type="submit">Solicitar Reserva</button>
+               
+                <!--<button type="submit">Solicitar Reserva</button>
               </form>
             </div>
             <div id="status"></div>
-          </section>
+          </section>-->
+              
 
         
 </div>

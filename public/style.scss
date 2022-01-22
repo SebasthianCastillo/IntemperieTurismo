@@ -497,7 +497,7 @@ td, th {
 --------------------------------------------------------------*/
 .gridruta{
 	display: grid;
-	grid-template-columns:  1fr 1fr 1fr;
+	grid-template-columns:  auto;
 	grid-template-rows: auto;
 	grid-gap: 0.5rem;
 	
@@ -1056,46 +1056,61 @@ text-decoration: none;
 	  padding-top: calc(100%/ (16/10));
   }
   &:nth-child(1){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas1.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/1.jpg");
   }
   &:nth-child(2){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas2.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/2.jpg");
   }
   &:nth-child(3){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas3.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/3.jpg");
   }
   &:nth-child(4){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas4.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/4.jpg");
   }
   &:nth-child(5){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas5.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/5.jpg");
   }
   &:nth-child(6){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas6.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/6.jpg");
   }
   &:nth-child(7){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas7.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/7.jpg");
   }
   &:nth-child(8){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas8.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/8.jpg");
   }
   &:nth-child(9){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas9.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/9.jpg");
   }
   &:nth-child(10){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas10.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/10.jpg");
   }
   &:nth-child(11){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas11.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/11.jpg");
   }
   &:nth-child(12){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas12.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/12.jpg");
   }
   &:nth-child(13){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas13.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/13.jpg");
   }
   &:nth-child(14){
-	background-image: url("assets/images/RUTAS_INTEMPERIE/EXCURSIÓN_NÁUTICA_SODIAC/MOLAMOLA/paginawebexcursionnautucalasCañas/nauticaCanas14.jpg");
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/14.jpg");
+  }
+  &:nth-child(15){
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/15.jpg");
+  }
+  &:nth-child(16){
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/16.jpg");
+  }
+  &:nth-child(17){
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/17.jpg");
+  }
+  &:nth-child(18){
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/18.jpg");
+  }
+  &:nth-child(19){
+	background-image: url("assets/images/RUTAS_INTEMPERIE/nautica/19.jpg");
   }
 }
 

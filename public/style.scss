@@ -4845,6 +4845,24 @@ footer.bg-dark a {
 		margin-bottom: 40px;
 	}
 }
+@media all and (max-width: 767px) {
+	.wrapper .icon span{
+		display: block;
+		height: 65px;
+		width: 65px;
+		background: #fff;
+		border-radius: 50%;
+		position: relative;
+		z-index: 2;
+		box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+		transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	  }
+	  .wrapper .icon span i{
+		line-height: 65px;
+		font-size: 32px;
+		
+	  }
+}
 
 /*!---------- 23. OTHER ----------*/
 
